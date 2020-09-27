@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Project || Musah Ibrahim Ali from miastudiosinc</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="main-title">
+        <h1 class="title">store locator</h1>
+    </div>
+    <div class="search-container">
+        <div class="search">
+            <input class="input-box" type="text" id="zip-code-input" placeholder="Enter Zip">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+    </div>
+    <div class="store-list-container">
+        <div class="store-list">
+            <div class="store-container">
+                <div class="store-address">
+                    store number 1
+                </div>
+                <div class="store-phone-number">
+                    0542864498
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9oU79PBfA6O1gzTNIqgqTIp143ao604g&callback=initMap&libraries=&v=weekly"
+      asyn defer
+    ></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+</body>
+</html>
